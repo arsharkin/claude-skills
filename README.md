@@ -1,8 +1,8 @@
 # claude-skills
 
-Коллекция кастомных скиллов для [Claude](https://claude.ai) — инструментов которые помогают Claude вести сложные многоэтапные процессы последовательно и точно.
+**RU:** Коллекция кастомных скиллов для [Claude](https://claude.ai) — каждый скилл учит Claude вести сложный многоэтапный процесс последовательно и точно.
 
-A collection of custom skills for [Claude](https://claude.ai) — tools that help Claude run complex multi-step processes consistently and precisely.
+**EN:** A collection of custom skills for [Claude](https://claude.ai) — each skill teaches Claude to run a complex multi-step process consistently and precisely.
 
 ---
 
@@ -14,16 +14,34 @@ A collection of custom skills for [Claude](https://claude.ai) — tools that hel
 
 ---
 
-## Как использовать / How to use
+## Установка / Installation
 
-Каждый скилл — это папка с файлом `SKILL.md` и папкой `references/`.  
-Скопируйте нужную папку в директорию скиллов вашего Claude и следуйте инструкциям внутри.
+Скопируйте папку нужного скилла в директорию скиллов вашего Claude:
 
-Each skill is a folder with `SKILL.md` and a `references/` directory.  
-Copy the folder into your Claude skills directory and follow the instructions inside.
+```
+cp -r skill-personal-print/ /path/to/your/claude/skills/
+```
+
+Copy the skill folder into your Claude skills directory:
+
+```
+cp -r skill-personal-print/ /path/to/your/claude/skills/
+```
+
+---
+
+## Использование / Usage
+
+После установки просто напишите Claude триггерную фразу — он сам начнёт процесс и поведёт вас через все этапы. Никаких дополнительных настроек не нужно.
+
+After installation, just say the trigger phrase to Claude — it will start the process and guide you through every step. No additional configuration needed.
+
+Триггерные фразы и детали каждого скилла — в его собственном README.
+
+Trigger phrases and details for each skill — in its own README.
 
 ---
 
 ## Автор / Author
 
-[Артём Шаркин](https://github.com/arsharkin)
+[Artem Sharkin](https://github.com/arsharkin)
