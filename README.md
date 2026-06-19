@@ -11,6 +11,7 @@
 | Скилл | Описание | Description |
 |-------|----------|-------------|
 | [skill-personal-print](./skill-personal-print/) | Вытаскивает уникальный личный «принт» человека через глубокую саморефлексию | Extracts a person's unique «personal print» through deep structured self-reflection |
+| [docx-to-wordpress](./docx-to-wordpress/) | Конвертирует .docx статьи в WordPress-ready HTML с проверкой грамматики | Converts .docx articles into WordPress-ready HTML with grammar checks |
 
 ---
 
